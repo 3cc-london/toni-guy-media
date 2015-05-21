@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	{% include head.html %}
+	<body>
+		{{ content }}
+		{% include footer.html %}
+	</body>
+	<script src="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}static/toni-and-guy-media.js"></script>
+</html>

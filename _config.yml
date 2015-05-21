@@ -1,0 +1,7 @@
+# Site settings
+title: Toni&Guy Media
+description: Toni&Guy Media
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
