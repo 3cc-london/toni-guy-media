@@ -1,0 +1,62 @@
+a.toggle {
+  display: inline-block;
+  width:28px;
+  height:28px;
+  cursor: pointer;
+  text-decoration: none;
+  color:white;
+}
+a.toggle i {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  color:white;
+  font:bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent:-55px;
+  background: white;
+  transition:all .2s ease-out;
+}
+a.toggle i::before, a.toggle i::after {
+  content:'';
+  width: 28px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left:0;
+  transition:all .2s ease-out;
+}
+a.toggle i::before {
+  top: -12px;
+}
+a.toggle i::after {
+  bottom: -12px;
+}
+a.toggle.active i {
+  background: transparent;
+  color:white;
+}
+a.toggle.active i::before {
+  top:0;
+  -webkit-transform: rotateZ(45deg);
+     -moz-transform: rotateZ(45deg);
+      -ms-transform: rotateZ(45deg);
+       -o-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  color:white;
+}
+a.toggle.active i::after {
+  bottom:0;
+  -webkit-transform: rotateZ(-45deg);
+     -moz-transform: rotateZ(-45deg);
+      -ms-transform: rotateZ(-45deg);
+       -o-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+          color:white;
+}
+
+/* Button placement */
+a.toggle {
+  color:white;
+}

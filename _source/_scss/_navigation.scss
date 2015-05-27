@@ -1,0 +1,47 @@
+@media #{$small-up} {
+	nav {
+		height:100%;
+		width:0px;
+		background:$lightblack;
+		transition:0.2s;
+		-webkit-transition:0.2s;
+		position:absolute;
+		top:58px;
+		display:none;
+		> ul {
+			display:table-cell;
+			vertical-align:middle;
+			list-style: none;
+			padding-top: 30px;
+			padding-bottom: 80px;
+			> li {	
+				display:none;
+				> a {
+					color:white;
+					font-size:2rem;
+					padding:10px;
+					text-transform: capitalize;
+					&:hover {
+						color:white;
+					}
+					&:focus {
+						color:white;
+					}
+				}
+			}
+		}
+	}
+}
+@media #{$medium-up} {
+	nav {
+		position:relative;
+		top:0px;
+		> ul {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+}
+@media #{$large-up} {
+
+}

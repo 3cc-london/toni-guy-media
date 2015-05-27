@@ -8262,6 +8262,76 @@ ul.off-canvas-list {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 1, _scss/burger.scss */
+a.toggle {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white; }
+
+/* line 9, _scss/burger.scss */
+a.toggle i {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  color: white;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: white;
+  transition: all .2s ease-out; }
+
+/* line 21, _scss/burger.scss */
+a.toggle i::before, a.toggle i::after {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 0;
+  transition: all .2s ease-out; }
+
+/* line 30, _scss/burger.scss */
+a.toggle i::before {
+  top: -12px; }
+
+/* line 33, _scss/burger.scss */
+a.toggle i::after {
+  bottom: -12px; }
+
+/* line 36, _scss/burger.scss */
+a.toggle.active i {
+  background: transparent;
+  color: white; }
+
+/* line 40, _scss/burger.scss */
+a.toggle.active i::before {
+  top: 0;
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  color: white; }
+
+/* line 49, _scss/burger.scss */
+a.toggle.active i::after {
+  bottom: 0;
+  -webkit-transform: rotateZ(-45deg);
+  -moz-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  -o-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  color: white; }
+
+/* Button placement */
+/* line 60, _scss/burger.scss */
+a.toggle {
+  color: white; }
+
 @media only screen {
   /* line 2, _scss/_global.scss */
   html {
@@ -8341,43 +8411,45 @@ ul.off-canvas-list {
     /* line 37, _scss/_sections.scss */
     section.content {
       width: 100%;
-      height: auto;
+      height: calc(100% - 58px);
       display: block; }
       /* line 41, _scss/_sections.scss */
       section.content > .copy {
         text-align: center;
         display: table;
-        padding-top: 40px;
-        width: 100%; }
+        width: 100%;
+        height: calc(100% - 360px); }
         /* line 46, _scss/_sections.scss */
         section.content > .copy > .copy-wrapper {
           height: 100%;
           display: table-cell;
           vertical-align: middle;
-          position: relative; }
-          /* line 51, _scss/_sections.scss */
+          position: relative;
+          padding-top: 40px;
+          padding-bottom: 40px; }
+          /* line 53, _scss/_sections.scss */
           section.content > .copy > .copy-wrapper > .next-page {
             position: absolute;
             bottom: 20px;
             left: 0px;
             width: 100%; }
-      /* line 59, _scss/_sections.scss */
+      /* line 61, _scss/_sections.scss */
       section.content > .background {
         width: 100%;
         height: 300px;
         padding: 0px; }
-        /* line 63, _scss/_sections.scss */
+        /* line 65, _scss/_sections.scss */
         section.content > .background > .background-image {
           position: relative;
           width: 100%;
           height: 100%; }
-          /* line 67, _scss/_sections.scss */
+          /* line 69, _scss/_sections.scss */
           section.content > .background > .background-image.index {
             background: url("../assets/images/content/welcome.jpg") no-repeat;
             background-size: cover;
             background-position: center; } }
 @media only screen and (min-width: 40.063em) {
-  /* line 79, _scss/_sections.scss */
+  /* line 81, _scss/_sections.scss */
   section.sidebar {
     width: 100px;
     height: 100%;
@@ -8385,31 +8457,31 @@ ul.off-canvas-list {
     position: fixed;
     overflow: hidden;
     display: inline; }
-    /* line 87, _scss/_sections.scss */
+    /* line 89, _scss/_sections.scss */
     section.sidebar > .row > .columns {
       width: 100%;
       text-align: center; }
-      /* line 90, _scss/_sections.scss */
+      /* line 92, _scss/_sections.scss */
       section.sidebar > .row > .columns.burger {
         height: 40px;
         text-align: center; }
-      /* line 95, _scss/_sections.scss */
+      /* line 97, _scss/_sections.scss */
       section.sidebar > .row > .columns.logo > .logo-holder {
         height: 100%; }
-        /* line 97, _scss/_sections.scss */
+        /* line 99, _scss/_sections.scss */
         section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper {
           position: absolute;
           bottom: 70px;
           text-align: center;
           width: calc(100% - 30px); }
-          /* line 103, _scss/_sections.scss */
+          /* line 105, _scss/_sections.scss */
           section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper > div > img {
             position: relative;
             width: 30px;
             transition: 0.3s;
             -webkit-transition: 0.3s;
             margin-top: 0px; }
-  /* line 117, _scss/_sections.scss */
+  /* line 119, _scss/_sections.scss */
   section.content {
     width: calc(100% - 100px);
     height: 100%;
@@ -8417,33 +8489,74 @@ ul.off-canvas-list {
     overflow-y: scroll;
     left: 100px;
     display: inline; }
-    /* line 124, _scss/_sections.scss */
+    /* line 126, _scss/_sections.scss */
     section.content > .copy {
       height: 100%;
       padding: 0px;
       width: 50%;
       max-width: 500px;
       float: right; }
-    /* line 131, _scss/_sections.scss */
+    /* line 133, _scss/_sections.scss */
     section.content > .background {
       height: 100%;
       width: 50%;
-      float: right;
-      background: black; }
-      /* line 136, _scss/_sections.scss */
+      float: right; }
+      /* line 137, _scss/_sections.scss */
       section.content > .background > .background-image {
         position: fixed;
         width: 100%;
         height: 100%; } }
 @media only screen and (min-width: 64.063em) {
-  /* line 148, _scss/_sections.scss */
+  /* line 149, _scss/_sections.scss */
   section.content > .background {
     width: 100%;
     max-width: calc(100% - 500px); } }
 @media only screen and (min-width: 641px) and (max-width: 1100px) {
-  /* line 158, _scss/_sections.scss */
+  /* line 159, _scss/_sections.scss */
   section.content > .background {
     width: 50%;
     max-width: 50%; } }
+@media only screen {
+  /* line 2, _scss/_navigation.scss */
+  nav {
+    height: 100%;
+    width: 0px;
+    background: #151515;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    position: absolute;
+    top: 58px;
+    display: none; }
+    /* line 11, _scss/_navigation.scss */
+    nav > ul {
+      display: table-cell;
+      vertical-align: middle;
+      list-style: none;
+      padding-top: 30px;
+      padding-bottom: 80px; }
+      /* line 17, _scss/_navigation.scss */
+      nav > ul > li {
+        display: none; }
+        /* line 19, _scss/_navigation.scss */
+        nav > ul > li > a {
+          color: white;
+          font-size: 2rem;
+          padding: 10px;
+          text-transform: capitalize; }
+          /* line 24, _scss/_navigation.scss */
+          nav > ul > li > a:hover {
+            color: white; }
+          /* line 27, _scss/_navigation.scss */
+          nav > ul > li > a:focus {
+            color: white; } }
+@media only screen and (min-width: 40.063em) {
+  /* line 36, _scss/_navigation.scss */
+  nav {
+    position: relative;
+    top: 0px; }
+    /* line 39, _scss/_navigation.scss */
+    nav > ul {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
 
 /*# sourceMappingURL=toni-guy-media.css.map */
