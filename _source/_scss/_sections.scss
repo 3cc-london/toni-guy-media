@@ -11,9 +11,6 @@
 				height:100%;
 				> .columns {
 					height:100%;
-					&.burger {
-						text-align:right;
-					}
 					> .burger-holder {
 						display:inline-block;
 						img {
@@ -24,9 +21,11 @@
 						> .logo-wrapper {
 							position:relative;
 							> div {
-								> img {
-									max-height:100%;
-									width:100%;
+								> a {
+									> img {
+										max-height:100%;
+										max-width:300px;
+									}
 								}
 							}
 						}
@@ -121,7 +120,7 @@
 			height:100%;
 			position:fixed;
 			overflow-y: scroll;
-			left:100px;
+			left:99px;
 			display:inline;
 			> .copy {
 				height: 100%;

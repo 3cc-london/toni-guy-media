@@ -8393,33 +8393,30 @@ a.toggle {
         section.sidebar > .row > .columns {
           height: 100%; }
           /* line 14, _scss/_sections.scss */
-          section.sidebar > .row > .columns.burger {
-            text-align: right; }
-          /* line 17, _scss/_sections.scss */
           section.sidebar > .row > .columns > .burger-holder {
             display: inline-block; }
-            /* line 19, _scss/_sections.scss */
+            /* line 16, _scss/_sections.scss */
             section.sidebar > .row > .columns > .burger-holder img {
               height: 20px; }
-          /* line 24, _scss/_sections.scss */
+          /* line 21, _scss/_sections.scss */
           section.sidebar > .row > .columns > .logo-holder > .logo-wrapper {
             position: relative; }
-            /* line 27, _scss/_sections.scss */
-            section.sidebar > .row > .columns > .logo-holder > .logo-wrapper > div > img {
+            /* line 25, _scss/_sections.scss */
+            section.sidebar > .row > .columns > .logo-holder > .logo-wrapper > div > a > img {
               max-height: 100%;
-              width: 100%; }
-    /* line 37, _scss/_sections.scss */
+              max-width: 300px; }
+    /* line 36, _scss/_sections.scss */
     section.content {
       width: 100%;
       height: calc(100% - 58px);
       display: block; }
-      /* line 41, _scss/_sections.scss */
+      /* line 40, _scss/_sections.scss */
       section.content > .copy {
         text-align: center;
         display: table;
         width: 100%;
         height: calc(100% - 360px); }
-        /* line 46, _scss/_sections.scss */
+        /* line 45, _scss/_sections.scss */
         section.content > .copy > .copy-wrapper {
           height: 100%;
           display: table-cell;
@@ -8427,29 +8424,29 @@ a.toggle {
           position: relative;
           padding-top: 40px;
           padding-bottom: 40px; }
-          /* line 53, _scss/_sections.scss */
+          /* line 52, _scss/_sections.scss */
           section.content > .copy > .copy-wrapper > .next-page {
             position: absolute;
             bottom: 20px;
             left: 0px;
             width: 100%; }
-      /* line 61, _scss/_sections.scss */
+      /* line 60, _scss/_sections.scss */
       section.content > .background {
         width: 100%;
         height: 300px;
         padding: 0px; }
-        /* line 65, _scss/_sections.scss */
+        /* line 64, _scss/_sections.scss */
         section.content > .background > .background-image {
           position: relative;
           width: 100%;
           height: 100%; }
-          /* line 69, _scss/_sections.scss */
+          /* line 68, _scss/_sections.scss */
           section.content > .background > .background-image.index {
             background: url("../assets/images/content/welcome.jpg") no-repeat;
             background-size: cover;
             background-position: center; } }
 @media only screen and (min-width: 40.063em) {
-  /* line 81, _scss/_sections.scss */
+  /* line 80, _scss/_sections.scss */
   section.sidebar {
     width: 100px;
     height: 100%;
@@ -8457,62 +8454,62 @@ a.toggle {
     position: fixed;
     overflow: hidden;
     display: inline; }
-    /* line 89, _scss/_sections.scss */
+    /* line 88, _scss/_sections.scss */
     section.sidebar > .row > .columns {
       width: 100%;
       text-align: center; }
-      /* line 92, _scss/_sections.scss */
+      /* line 91, _scss/_sections.scss */
       section.sidebar > .row > .columns.burger {
         height: 40px;
         text-align: center; }
-      /* line 97, _scss/_sections.scss */
+      /* line 96, _scss/_sections.scss */
       section.sidebar > .row > .columns.logo > .logo-holder {
         height: 100%; }
-        /* line 99, _scss/_sections.scss */
+        /* line 98, _scss/_sections.scss */
         section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper {
           position: absolute;
           bottom: 70px;
           text-align: center;
           width: calc(100% - 30px); }
-          /* line 105, _scss/_sections.scss */
+          /* line 104, _scss/_sections.scss */
           section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper > div > img {
             position: relative;
             width: 30px;
             transition: 0.3s;
             -webkit-transition: 0.3s;
             margin-top: 0px; }
-  /* line 119, _scss/_sections.scss */
+  /* line 118, _scss/_sections.scss */
   section.content {
     width: calc(100% - 100px);
     height: 100%;
     position: fixed;
     overflow-y: scroll;
-    left: 100px;
+    left: 99px;
     display: inline; }
-    /* line 126, _scss/_sections.scss */
+    /* line 125, _scss/_sections.scss */
     section.content > .copy {
       height: 100%;
       padding: 0px;
       width: 50%;
       max-width: 500px;
       float: right; }
-    /* line 133, _scss/_sections.scss */
+    /* line 132, _scss/_sections.scss */
     section.content > .background {
       height: 100%;
       width: 50%;
       float: right; }
-      /* line 137, _scss/_sections.scss */
+      /* line 136, _scss/_sections.scss */
       section.content > .background > .background-image {
         position: fixed;
         width: 100%;
         height: 100%; } }
 @media only screen and (min-width: 64.063em) {
-  /* line 149, _scss/_sections.scss */
+  /* line 148, _scss/_sections.scss */
   section.content > .background {
     width: 100%;
     max-width: calc(100% - 500px); } }
 @media only screen and (min-width: 641px) and (max-width: 1100px) {
-  /* line 159, _scss/_sections.scss */
+  /* line 158, _scss/_sections.scss */
   section.content > .background {
     width: 50%;
     max-width: 50%; } }
