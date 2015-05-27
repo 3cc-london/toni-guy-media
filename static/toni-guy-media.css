@@ -8262,4 +8262,188 @@ ul.off-canvas-list {
 .fa-meanpath:before {
   content: ""; }
 
+@media only screen {
+  /* line 2, _scss/_global.scss */
+  html {
+    height: 100%; }
+    /* line 4, _scss/_global.scss */
+    html > body {
+      height: 100%; }
+      /* line 6, _scss/_global.scss */
+      html > body .display-small {
+        display: block; }
+      /* line 9, _scss/_global.scss */
+      html > body .display-medium {
+        display: none; } }
+@media only screen and (min-width: 40.063em) {
+  /* line 18, _scss/_global.scss */
+  html > body .display-small {
+    display: none; }
+  /* line 21, _scss/_global.scss */
+  html > body .display-medium {
+    display: block; } }
+@media only screen {
+  /* line 2, _scss/_type.scss */
+  h1 {
+    text-transform: lowercase;
+    display: inline-block;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    color: black;
+    margin-bottom: 40px; }
+
+  /* line 10, _scss/_type.scss */
+  p {
+    color: black;
+    max-width: 80%;
+    margin: auto; }
+    /* line 14, _scss/_type.scss */
+    p.pagelink {
+      display: inline-block;
+      border-bottom: 2px solid black; }
+    /* line 19, _scss/_type.scss */
+    p.height-controller {
+      padding-bottom: 40px;
+      margin-bottom: 40px; } }
+@media only screen {
+  /* line 2, _scss/_sections.scss */
+  section {
+    height: 100; }
+    /* line 4, _scss/_sections.scss */
+    section.sidebar {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: black;
+      padding: 15px 10px 15px 10px; }
+      /* line 10, _scss/_sections.scss */
+      section.sidebar > .row {
+        height: 100%; }
+        /* line 12, _scss/_sections.scss */
+        section.sidebar > .row > .columns {
+          height: 100%; }
+          /* line 14, _scss/_sections.scss */
+          section.sidebar > .row > .columns.burger {
+            text-align: right; }
+          /* line 17, _scss/_sections.scss */
+          section.sidebar > .row > .columns > .burger-holder {
+            display: inline-block; }
+            /* line 19, _scss/_sections.scss */
+            section.sidebar > .row > .columns > .burger-holder img {
+              height: 20px; }
+          /* line 24, _scss/_sections.scss */
+          section.sidebar > .row > .columns > .logo-holder > .logo-wrapper {
+            position: relative; }
+            /* line 27, _scss/_sections.scss */
+            section.sidebar > .row > .columns > .logo-holder > .logo-wrapper > div > img {
+              max-height: 100%;
+              width: 100%; }
+    /* line 37, _scss/_sections.scss */
+    section.content {
+      width: 100%;
+      height: auto;
+      display: block; }
+      /* line 41, _scss/_sections.scss */
+      section.content > .copy {
+        text-align: center;
+        display: table;
+        padding-top: 40px;
+        width: 100%; }
+        /* line 46, _scss/_sections.scss */
+        section.content > .copy > .copy-wrapper {
+          height: 100%;
+          display: table-cell;
+          vertical-align: middle;
+          position: relative; }
+          /* line 51, _scss/_sections.scss */
+          section.content > .copy > .copy-wrapper > .next-page {
+            position: absolute;
+            bottom: 20px;
+            left: 0px;
+            width: 100%; }
+      /* line 59, _scss/_sections.scss */
+      section.content > .background {
+        width: 100%;
+        height: 300px;
+        padding: 0px; }
+        /* line 63, _scss/_sections.scss */
+        section.content > .background > .background-image {
+          position: relative;
+          width: 100%;
+          height: 100%; }
+          /* line 67, _scss/_sections.scss */
+          section.content > .background > .background-image.index {
+            background: url("../assets/images/content/welcome.jpg") no-repeat;
+            background-size: cover;
+            background-position: center; } }
+@media only screen and (min-width: 40.063em) {
+  /* line 79, _scss/_sections.scss */
+  section.sidebar {
+    width: 100px;
+    height: 100%;
+    padding-top: 25px;
+    position: fixed;
+    overflow: hidden;
+    display: inline; }
+    /* line 87, _scss/_sections.scss */
+    section.sidebar > .row > .columns {
+      width: 100%;
+      text-align: center; }
+      /* line 90, _scss/_sections.scss */
+      section.sidebar > .row > .columns.burger {
+        height: 40px;
+        text-align: center; }
+      /* line 95, _scss/_sections.scss */
+      section.sidebar > .row > .columns.logo > .logo-holder {
+        height: 100%; }
+        /* line 97, _scss/_sections.scss */
+        section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper {
+          position: absolute;
+          bottom: 70px;
+          text-align: center;
+          width: calc(100% - 30px); }
+          /* line 103, _scss/_sections.scss */
+          section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper > div > img {
+            position: relative;
+            width: 30px;
+            transition: 0.3s;
+            -webkit-transition: 0.3s;
+            margin-top: 0px; }
+  /* line 117, _scss/_sections.scss */
+  section.content {
+    width: calc(100% - 100px);
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    left: 100px;
+    display: inline; }
+    /* line 124, _scss/_sections.scss */
+    section.content > .copy {
+      height: 100%;
+      padding: 0px;
+      width: 50%;
+      max-width: 500px;
+      float: right; }
+    /* line 131, _scss/_sections.scss */
+    section.content > .background {
+      height: 100%;
+      width: 50%;
+      float: right;
+      background: black; }
+      /* line 136, _scss/_sections.scss */
+      section.content > .background > .background-image {
+        position: fixed;
+        width: 100%;
+        height: 100%; } }
+@media only screen and (min-width: 64.063em) {
+  /* line 148, _scss/_sections.scss */
+  section.content > .background {
+    width: 100%;
+    max-width: calc(100% - 500px); } }
+@media only screen and (min-width: 641px) and (max-width: 1100px) {
+  /* line 158, _scss/_sections.scss */
+  section.content > .background {
+    width: 50%;
+    max-width: 50%; } }
+
 /*# sourceMappingURL=toni-guy-media.css.map */

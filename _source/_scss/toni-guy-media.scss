@@ -23,3 +23,7 @@ $fa-font-path: "static/font" !default; // Override Font
 @import "font-awesome/scss/rotated-flipped";
 @import "font-awesome/scss/stacked";
 @import "font-awesome/scss/icons";
+
+@import "global";
+@import "type";
+@import "sections";

@@ -1,1 +1,21 @@
-Nav
+<section class="sidebar">
+	<div class="row">
+		<div class="small-4 small-push-8 medium-push-0 medium-12 large-12 columns burger">
+			<div class="burger-holder">
+				<img src="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}assets/images/operators/burger.svg"/>
+			</div>
+		</div>
+		<div class="small-8 small-pull-4 medium-pull-0 medium-12 large-12 columns logo">
+			<div class="logo-holder">
+				<div class="logo-wrapper">
+					<div class="display-medium">
+						<a href="/"><img src="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}assets/images/logos/logo-vertical.svg"/></a>
+					</div>
+					<div class="display-small">
+						<a href="/"><img src="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}assets/images/logos/logo-horizontal.svg"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,8 +1,28 @@
 @media #{$small-up} {
-
+	html {
+		height:100%;
+		> body {
+			height:100%;
+			.display-small {
+				display:block;
+			}
+			.display-medium {
+				display:none;
+			}
+		}
+	}
 }
 @media #{$medium-up} {
-
+	html {
+		> body {
+			.display-small {
+				display:none;
+			}
+			.display-medium {
+				display:block;
+			}
+		}
+	}
 }
 @media #{$large-up} {
 
