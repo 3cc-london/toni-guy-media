@@ -3,27 +3,31 @@
 		height:100%;
 		> body {
 			height:100%;
+			background:white;
 			.display-small {
 				display:block;
 			}
-			.display-medium {
+			.display-large {
 				display:none;
+			}
+			.height-controller {
+				margin-bottom:40px;
 			}
 		}
 	}
 }
 @media #{$medium-up} {
+
+}
+@media #{$large-up} {
 	html {
 		> body {
 			.display-small {
 				display:none;
 			}
-			.display-medium {
+			.display-large {
 				display:block;
 			}
 		}
 	}
-}
-@media #{$large-up} {
-
 }

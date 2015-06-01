@@ -8,6 +8,7 @@
 		position:absolute;
 		top:58px;
 		display:none;
+		text-align:center;
 		> ul {
 			display:table-cell;
 			vertical-align:middle;
@@ -33,6 +34,9 @@
 	}
 }
 @media #{$medium-up} {
+
+}
+@media #{$large-up} {
 	nav {
 		position:relative;
 		top:0px;
@@ -41,7 +45,4 @@
 			padding-bottom: 40px;
 		}
 	}
-}
-@media #{$large-up} {
-
 }
