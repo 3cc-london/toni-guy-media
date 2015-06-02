@@ -1,10 +1,10 @@
 <nav>
 	<ul class="menu">
-		<li><a href="">Toni&Guy TV</a></li>
-		<li><a href="">Toni&Guy Magazine</a></l1>
-		<li><a href="">Sampling & experiential</a></l1>
-		<li><a href="">Rewards card e-shot</a></l1>
-		<li><a href="">In salon wi-fi</a></l1>
-		<li><a href="">Contacts</a></l1>
+		<li><a href="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}toni-and-guy-tv">Toni&Guy TV</a></li>
+		<li><a href="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}toni-and-guy-magazine">Toni&Guy Magazine</a></l1>
+		<li><a href="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}sampling-and-experiential">Sampling & experiential</a></l1>
+		<li><a href="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}rewards-card-and-e-shot">Rewards card e-shot</a></l1>
+		<li><a href="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}in-salon-wifi">In salon wi-fi</a></l1>
+		<li><a href="{% if page.page == "index" %}{{site.data.links.path}}{% else %}{{site.data.links.childpath}}{% endif %}contacts">Contacts</a></l1>
 	</ul>
 </nav>

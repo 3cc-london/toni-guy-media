@@ -8276,7 +8276,7 @@ a.toggle i {
   position: relative;
   display: inline-block;
   width: 28px;
-  height: 2px;
+  height: 4px;
   color: white;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
@@ -8288,7 +8288,7 @@ a.toggle i {
 a.toggle i::before, a.toggle i::after {
   content: '';
   width: 28px;
-  height: 2px;
+  height: 4px;
   background: white;
   position: absolute;
   left: 0;
@@ -8296,11 +8296,11 @@ a.toggle i::before, a.toggle i::after {
 
 /* line 30, _scss/burger.scss */
 a.toggle i::before {
-  top: -12px; }
+  top: -10px; }
 
 /* line 33, _scss/burger.scss */
 a.toggle i::after {
-  bottom: -12px; }
+  bottom: -10px; }
 
 /* line 36, _scss/burger.scss */
 a.toggle.active i {
@@ -8358,15 +8358,25 @@ a.toggle {
     display: block; } }
 @media only screen {
   /* line 2, _scss/_type.scss */
+  h1, h2, h3, h4, h5, h5, h6, p, a, li {
+    font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.05em; }
+
+  /* line 8, _scss/_type.scss */
   h1 {
     text-transform: lowercase;
     display: inline-block;
     padding-bottom: 15px;
     border-bottom: 2px solid black;
     color: black;
-    margin-bottom: 40px; }
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 3rem; }
 
-  /* line 10, _scss/_type.scss */
+  /* line 19, _scss/_type.scss */
   h2 {
     display: inline-block;
     padding-bottom: 5px;
@@ -8374,25 +8384,41 @@ a.toggle {
     color: black;
     margin-bottom: 20px;
     font-size: 1.5rem;
-    padding-top: 20px; }
+    padding-top: 20px;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 5px; }
 
-  /* line 19, _scss/_type.scss */
+  /* line 31, _scss/_type.scss */
   p {
     color: black;
-    margin: auto; }
-    /* line 22, _scss/_type.scss */
+    margin: auto;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 10px; }
+    /* line 37, _scss/_type.scss */
+    p > a {
+      color: black;
+      text-decoration: underline; }
+      /* line 40, _scss/_type.scss */
+      p > a:hover {
+        color: black; }
+      /* line 43, _scss/_type.scss */
+      p > a:focus {
+        color: black; }
+    /* line 47, _scss/_type.scss */
     p.pagelink {
       display: inline-block;
       border-bottom: 2px solid black; }
-    /* line 27, _scss/_type.scss */
-    p > a {
-      color: black; }
-      /* line 29, _scss/_type.scss */
-      p > a:hover {
-        color: black; }
-      /* line 32, _scss/_type.scss */
-      p > a:focus {
-        color: black; } }
+      /* line 50, _scss/_type.scss */
+      p.pagelink > a {
+        text-decoration: none; }
+
+  /* line 56, _scss/_type.scss */
+  ul {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 10px; } }
 @media only screen {
   /* line 2, _scss/_sections.scss */
   section {
@@ -8414,81 +8440,122 @@ a.toggle {
           padding: 5px; }
           /* line 16, _scss/_sections.scss */
           section.sidebar > .row > .columns.burger {
-            max-width: 80px; }
-          /* line 19, _scss/_sections.scss */
+            max-width: 80px;
+            padding: 4px;
+            padding-left: 10px; }
+            /* line 21, _scss/_sections.scss */
+            section.sidebar > .row > .columns.burger > .burger-holder > a {
+              position: absolute;
+              top: 2px; }
+          /* line 27, _scss/_sections.scss */
           section.sidebar > .row > .columns.logo {
             float: left; }
-          /* line 22, _scss/_sections.scss */
+          /* line 30, _scss/_sections.scss */
           section.sidebar > .row > .columns > .burger-holder {
             display: inline-block; }
-            /* line 24, _scss/_sections.scss */
+            /* line 32, _scss/_sections.scss */
             section.sidebar > .row > .columns > .burger-holder img {
               height: 20px; }
-          /* line 29, _scss/_sections.scss */
+          /* line 37, _scss/_sections.scss */
           section.sidebar > .row > .columns > .logo-holder > .logo-wrapper {
             position: relative; }
-            /* line 33, _scss/_sections.scss */
+            /* line 41, _scss/_sections.scss */
             section.sidebar > .row > .columns > .logo-holder > .logo-wrapper > div > a > img {
               max-height: 100%;
-              max-width: 300px; }
-    /* line 44, _scss/_sections.scss */
+              max-width: 300px;
+              max-height: 26px; }
+    /* line 53, _scss/_sections.scss */
     section.content {
       width: 100%;
       height: calc(100% - 58px);
       display: block; }
-      /* line 48, _scss/_sections.scss */
+      /* line 57, _scss/_sections.scss */
       section.content > .row {
         height: 100%;
         max-width: 100%;
         width: 100%; }
-        /* line 53, _scss/_sections.scss */
+        /* line 62, _scss/_sections.scss */
         section.content > .row > .copy > .copy-holder {
           height: 100%; }
-          /* line 55, _scss/_sections.scss */
+          /* line 64, _scss/_sections.scss */
           section.content > .row > .copy > .copy-holder > .copy-wrapper {
             text-align: center;
             padding-top: 20px;
             padding-bottom: 20px; }
-            /* line 59, _scss/_sections.scss */
+            /* line 68, _scss/_sections.scss */
             section.content > .row > .copy > .copy-holder > .copy-wrapper > ul {
               text-align: left;
               margin-bottom: 0px; }
-              /* line 62, _scss/_sections.scss */
+              /* line 71, _scss/_sections.scss */
+              section.content > .row > .copy > .copy-holder > .copy-wrapper > ul.height-controller {
+                margin-bottom: 40px; }
+              /* line 74, _scss/_sections.scss */
               section.content > .row > .copy > .copy-holder > .copy-wrapper > ul > li {
                 color: black; }
-            /* line 66, _scss/_sections.scss */
+            /* line 78, _scss/_sections.scss */
             section.content > .row > .copy > .copy-holder > .copy-wrapper > .next-page {
               position: relative;
               margin-top: 20px; }
-        /* line 73, _scss/_sections.scss */
+        /* line 84, _scss/_sections.scss */
+        section.content > .row > .copy.menuactive {
+          height: 100%; }
+        /* line 88, _scss/_sections.scss */
         section.content > .row > .background {
           height: 300px;
           padding: 0px; }
-          /* line 76, _scss/_sections.scss */
+          /* line 91, _scss/_sections.scss */
           section.content > .row > .background > .background-image {
             position: relative;
             width: 100%;
             height: 100%; }
-            /* line 80, _scss/_sections.scss */
+            /* line 95, _scss/_sections.scss */
             section.content > .row > .background > .background-image.index {
               background: url("../assets/images/content/welcome.jpg") no-repeat;
               background-size: cover;
               background-position: center; }
-            /* line 85, _scss/_sections.scss */
+            /* line 100, _scss/_sections.scss */
             section.content > .row > .background > .background-image.tv {
               background: url("../assets/images/content/tv.jpg") no-repeat;
               background-size: cover;
-              background-position: center; } }
+              background-position: center; }
+            /* line 105, _scss/_sections.scss */
+            section.content > .row > .background > .background-image.magazine {
+              background: url("../assets/images/content/magazine.jpg") no-repeat;
+              background-size: cover;
+              background-position: center; }
+            /* line 110, _scss/_sections.scss */
+            section.content > .row > .background > .background-image.sampling {
+              background: url("../assets/images/content/sampling.jpg") no-repeat;
+              background-size: cover;
+              background-position: center; }
+            /* line 115, _scss/_sections.scss */
+            section.content > .row > .background > .background-image.rewards {
+              background: url("../assets/images/content/rewards.jpg") no-repeat;
+              background-size: cover;
+              background-position: center; }
+            /* line 120, _scss/_sections.scss */
+            section.content > .row > .background > .background-image.wifi {
+              background: url("../assets/images/content/wifi.jpg") no-repeat;
+              background-size: cover;
+              background-position: center; }
+            /* line 125, _scss/_sections.scss */
+            section.content > .row > .background > .background-image.contacts {
+              background: url("../assets/images/content/contacts.jpg") no-repeat;
+              background-size: cover;
+              background-position: center; }
+          /* line 131, _scss/_sections.scss */
+          section.content > .row > .background.menuactive {
+            height: 0px; } }
 @media only screen and (min-width: 40.063em) {
-  /* line 102, _scss/_sections.scss */
+  /* line 145, _scss/_sections.scss */
   section.sidebar > .row > .columns > .logo-holder > .logo-wrapper {
     position: relative; }
-    /* line 106, _scss/_sections.scss */
+    /* line 149, _scss/_sections.scss */
     section.sidebar > .row > .columns > .logo-holder > .logo-wrapper > .display-small > a > img {
       max-width: 300px;
       width: 100% !important; } }
 @media only screen and (min-width: 64.063em) {
-  /* line 121, _scss/_sections.scss */
+  /* line 164, _scss/_sections.scss */
   section.sidebar {
     width: 100px;
     height: 100%;
@@ -8496,31 +8563,38 @@ a.toggle {
     position: fixed;
     overflow: hidden;
     display: inline; }
-    /* line 129, _scss/_sections.scss */
+    /* line 172, _scss/_sections.scss */
     section.sidebar > .row > .columns {
       width: 100%;
       text-align: center; }
-      /* line 132, _scss/_sections.scss */
+      /* line 175, _scss/_sections.scss */
       section.sidebar > .row > .columns.burger {
         height: 40px;
         text-align: center; }
-      /* line 137, _scss/_sections.scss */
+        /* line 179, _scss/_sections.scss */
+        section.sidebar > .row > .columns.burger > .burger-holder > a {
+          position: absolute;
+          top: 2px;
+          left: 27px; }
+      /* line 187, _scss/_sections.scss */
       section.sidebar > .row > .columns.logo > .logo-holder {
         height: 100%; }
-        /* line 139, _scss/_sections.scss */
+        /* line 189, _scss/_sections.scss */
         section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper {
           position: absolute;
           bottom: 70px;
           text-align: center;
-          width: calc(100% - 30px); }
-          /* line 146, _scss/_sections.scss */
+          width: calc(100% - 30px);
+          left: 20px; }
+          /* line 197, _scss/_sections.scss */
           section.sidebar > .row > .columns.logo > .logo-holder > .logo-wrapper > div > a > img {
             position: relative;
-            width: 50px;
+            width: 30px;
+            max-height: 100%;
             transition: 0.3s;
             -webkit-transition: 0.3s;
             margin-top: 0px; }
-  /* line 161, _scss/_sections.scss */
+  /* line 213, _scss/_sections.scss */
   section.content {
     width: calc(100% - 100px);
     height: 100%;
@@ -8528,44 +8602,44 @@ a.toggle {
     overflow-y: scroll;
     left: 100px;
     display: inline; }
-    /* line 168, _scss/_sections.scss */
+    /* line 220, _scss/_sections.scss */
     section.content > .row {
       height: 100%;
       max-width: 100%;
       width: 100%; }
-      /* line 172, _scss/_sections.scss */
+      /* line 224, _scss/_sections.scss */
       section.content > .row > .copy {
         height: 100%;
         padding: 0px; }
-        /* line 175, _scss/_sections.scss */
+        /* line 227, _scss/_sections.scss */
         section.content > .row > .copy > .copy-holder {
           display: table;
           width: 100%; }
-          /* line 178, _scss/_sections.scss */
+          /* line 230, _scss/_sections.scss */
           section.content > .row > .copy > .copy-holder > .copy-wrapper {
             display: table-cell;
             vertical-align: middle;
             position: relative;
             padding: 30px; }
-            /* line 183, _scss/_sections.scss */
+            /* line 235, _scss/_sections.scss */
             section.content > .row > .copy > .copy-holder > .copy-wrapper > .next-page {
               position: absolute;
               bottom: 20px;
               left: 0px;
               width: 100%; }
-      /* line 192, _scss/_sections.scss */
+      /* line 244, _scss/_sections.scss */
       section.content > .row > .background {
         height: 100%; }
-        /* line 194, _scss/_sections.scss */
+        /* line 246, _scss/_sections.scss */
         section.content > .row > .background > .background-image {
           position: fixed; } }
 @media only screen and (min-width: 1500px) {
-  /* line 206, _scss/_sections.scss */
+  /* line 258, _scss/_sections.scss */
   section.content > .row > .copy {
     width: 500px;
     float: left;
     left: 0px; }
-  /* line 211, _scss/_sections.scss */
+  /* line 263, _scss/_sections.scss */
   section.content > .row > .background {
     width: calc(100% - 500px);
     float: right;
@@ -8603,15 +8677,29 @@ a.toggle {
             color: white; }
           /* line 28, _scss/_navigation.scss */
           nav > ul > li > a:focus {
-            color: white; } }
+            color: white; }
+    /* line 34, _scss/_navigation.scss */
+    nav.active {
+      display: table;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px; } }
 @media only screen and (min-width: 64.063em) {
-  /* line 40, _scss/_navigation.scss */
+  /* line 48, _scss/_navigation.scss */
   nav {
     position: relative;
     top: 0px; }
-    /* line 43, _scss/_navigation.scss */
+    /* line 51, _scss/_navigation.scss */
     nav > ul {
       padding-top: 40px;
-      padding-bottom: 40px; } }
+      padding-bottom: 40px; }
+    /* line 55, _scss/_navigation.scss */
+    nav.active {
+      display: table;
+      position: absolute;
+      width: 100%;
+      left: 0px; } }
 
 /*# sourceMappingURL=toni-guy-media.css.map */

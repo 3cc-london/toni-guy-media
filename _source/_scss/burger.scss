@@ -10,7 +10,7 @@ a.toggle i {
   position: relative;
   display: inline-block;
   width: 28px;
-  height: 2px;
+  height: 4px;
   color:white;
   font:bold 14px/.4 Helvetica;
   text-transform: uppercase;
@@ -21,17 +21,17 @@ a.toggle i {
 a.toggle i::before, a.toggle i::after {
   content:'';
   width: 28px;
-  height: 2px;
+  height: 4px;
   background: white;
   position: absolute;
   left:0;
   transition:all .2s ease-out;
 }
 a.toggle i::before {
-  top: -12px;
+  top: -10px;
 }
 a.toggle i::after {
-  bottom: -12px;
+  bottom: -10px;
 }
 a.toggle.active i {
   background: transparent;

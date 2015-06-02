@@ -1,11 +1,20 @@
 @media #{$small-up} {
+	h1, h2, h3, h4, h5, h5, h6, p, a, li {
+		font-family: "futura-pt",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		letter-spacing: 0.05em;
+	}
 	h1 {
 		text-transform: lowercase;
 		display:inline-block;
 		padding-bottom:15px;
 		border-bottom:2px solid $black;
 		color:$black;
-		margin-bottom:40px;
+		max-width:70%;
+		margin:auto;
+		margin-bottom:20px;
+		font-size: 3rem;
 	}
 	h2 {
 		display:inline-block;
@@ -15,17 +24,19 @@
 		margin-bottom:20px;
 		font-size: 1.5rem;
 		padding-top: 20px;
+		max-width:70%;
+		margin:auto;
+		margin-bottom:5px;
 	}
 	p {
 		color:$black;
 		margin:auto;
-		&.pagelink {
-			display:inline-block;
-			border-bottom:2px solid $black;
-
-		}
+		max-width:70%;
+		margin:auto;
+		padding-top:10px;
 		> a {
 			color:$black;
+			text-decoration:underline;
 			&:hover {
 				color:$black;
 			}
@@ -33,11 +44,21 @@
 				color:$black;
 			}
 		}
+		&.pagelink {
+			display:inline-block;
+			border-bottom:2px solid $black;
+			> a {
+				text-decoration:none;
+			}
+
+		}
+	}
+	ul {
+		max-width:70%;
+		margin:auto;
+		padding-top:10px;
 	}
 }
-@media #{$medium-up} {
 
-}
-@media #{$large-up} {
-
-}
+@media #{$medium-up} {}
+@media #{$large-up} {}

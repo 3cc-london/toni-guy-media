@@ -16651,8 +16651,9 @@ function logoSIze() {
 function openWNav() {
 	$('a.toggle').addClass('active');
 	$('.copy .copy-wrapper').css('display', 'none');
-	$('nav').css('display', 'table');
-	$('nav').css('width', '100%');
+	$('.copy').addClass('menuactive');
+	$('.background').addClass('menuactive');
+	$('nav').addClass('active');
 
 	setTimeout(function()
 	{
@@ -16670,10 +16671,12 @@ function openWNav() {
 function closeNav() {
 	$('a.toggle').removeClass('active');
 	$('.menu > li').css('display', 'none');
-	$('nav').css('display', 'none');
-	$('nav').css('width', '0px');
+	$('.copy').removeClass('menuactive');
+	$('.background').removeClass('menuactive');
+	$('nav').removeClass('active');
 	//$('.nav').animate({width: '0px'}, 1000);
 	$('.copy .copy-wrapper').css('display', 'table-cell');
+	$('.copy .copy-wrapper').css('width', '60%');
 }
 
 $(window).load(function() {
@@ -16697,6 +16700,7 @@ $(document).ready(function () {
  			opened = false;
  		}
  	});
+
  	// Clsoe navigation if clicked on a background image
  	$( '.background-image' ).click(function() {
  		if (opened) {
