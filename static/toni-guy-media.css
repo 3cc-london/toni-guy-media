@@ -408,13 +408,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -879,7 +879,7 @@ select {
   .column.small-uncentered.opposite,
   .columns.small-uncentered.opposite {
     float: right; } }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 159, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -1308,7 +1308,7 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 44.063em) {
   /* line 159, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_grid.scss */
   .large-push-0 {
     position: relative;
@@ -1748,13 +1748,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -2017,7 +2017,7 @@ select {
     /* line 69, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_block-grid.scss */
     .small-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 61, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-1 > li {
     width: 100%;
@@ -2149,7 +2149,7 @@ select {
     /* line 69, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_block-grid.scss */
     .medium-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 44.063em) {
   /* line 61, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li {
     width: 100%;
@@ -2292,13 +2292,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -2421,13 +2421,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -2772,7 +2772,7 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 253, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block; } }
@@ -2834,7 +2834,7 @@ button::-moz-focus-inner {
     /* line 45, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.stack-for-small > li:first-child button, .button-group.stack-for-small > li:first-child .button {
       border-left: 0; }
-    @media only screen and (max-width: 40em) {
+    @media only screen and (max-width: 20em) {
       /* line 157, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_button-groups.scss */
       .button-group.stack-for-small > li {
         margin: 0 -2px;
@@ -2922,7 +2922,7 @@ button::-moz-focus-inner {
       -webkit-bottom-right-radius: 40px;
       border-bottom-left-radius: 40px;
       border-bottom-right-radius: 40px; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 167, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.radius.stack-for-small > * {
       margin: 0 -2px;
@@ -2949,7 +2949,7 @@ button::-moz-focus-inner {
         -webkit-border-top-right-radius: 40px;
         border-bottom-right-radius: 40px;
         border-top-right-radius: 40px; } }
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 20em) {
     /* line 167, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.radius.stack-for-small > * {
       margin: 0 -2px;
@@ -3052,7 +3052,7 @@ button::-moz-focus-inner {
       -webkit-bottom-right-radius: 1rem;
       border-bottom-left-radius: 1rem;
       border-bottom-right-radius: 1rem; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 178, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.round.stack-for-small > * {
       margin: 0 -2px;
@@ -3079,7 +3079,7 @@ button::-moz-focus-inner {
         -webkit-border-top-right-radius: 1000px;
         border-bottom-right-radius: 1000px;
         border-top-right-radius: 1000px; } }
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 20em) {
     /* line 178, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.round.stack-for-small > * {
       margin: 0 -2px;
@@ -3250,13 +3250,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -3601,7 +3601,7 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 253, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block; } }
@@ -3616,13 +3616,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -3745,13 +3745,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -4096,7 +4096,7 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 253, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block; } }
@@ -4636,13 +4636,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -4807,13 +4807,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -4936,13 +4936,13 @@ meta.foundation-mq-small {
 
 /* line 356, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:20.063em)/";
+  width: 20.063em; }
 
 /* line 361, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
+  font-family: "/only screen and (min-width:44.063em)/";
+  width: 44.063em; }
 
 /* line 366, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
@@ -5070,7 +5070,7 @@ select {
 .text-justify {
   text-align: justify !important; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 20em) {
   /* line 162, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .small-only-text-left {
     text-align: left !important; }
@@ -5102,7 +5102,7 @@ select {
   /* line 165, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .small-text-justify {
     text-align: justify !important; } }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 20.063em) and (max-width: 44em) {
   /* line 162, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important; }
@@ -5118,7 +5118,7 @@ select {
   /* line 165, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-only-text-justify {
     text-align: justify !important; } }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 162, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-text-left {
     text-align: left !important; }
@@ -5134,7 +5134,7 @@ select {
   /* line 165, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-text-justify {
     text-align: justify !important; } }
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+@media only screen and (min-width: 44.063em) and (max-width: 90em) {
   /* line 162, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .large-only-text-left {
     text-align: left !important; }
@@ -5150,7 +5150,7 @@ select {
   /* line 165, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .large-only-text-justify {
     text-align: justify !important; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 44.063em) {
   /* line 162, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   .large-text-left {
     text-align: left !important; }
@@ -5508,7 +5508,7 @@ blockquote p {
   border: none;
   padding: 0 0.0625rem; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 455, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1em; }
@@ -5695,7 +5695,7 @@ blockquote p {
   text-align: center;
   height: 2.8125rem;
   top: 0; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 203, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
     .tab-bar-section.left, .tab-bar-section.right {
       text-align: left; } }
@@ -5840,7 +5840,7 @@ ul.off-canvas-list {
   right: 0;
   z-index: 1002;
   -webkit-tap-highlight-color: transparent; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 276, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
     .move-right .exit-off-canvas:hover {
       background: rgba(255, 255, 255, 0.05); } }
@@ -5868,7 +5868,7 @@ ul.off-canvas-list {
   right: 0;
   z-index: 1002;
   -webkit-tap-highlight-color: transparent; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 276, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
     .move-left .exit-off-canvas:hover {
       background: rgba(255, 255, 255, 0.05); } }
@@ -5896,7 +5896,7 @@ ul.off-canvas-list {
   right: 0;
   z-index: 1002;
   -webkit-tap-highlight-color: transparent; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 276, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
     .offcanvas-overlap .exit-off-canvas:hover {
       background: rgba(255, 255, 255, 0.05); } }
@@ -5924,7 +5924,7 @@ ul.off-canvas-list {
   right: 0;
   z-index: 1002;
   -webkit-tap-highlight-color: transparent; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 276, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
     .offcanvas-overlap-left .exit-off-canvas:hover {
       background: rgba(255, 255, 255, 0.05); } }
@@ -5952,7 +5952,7 @@ ul.off-canvas-list {
   right: 0;
   z-index: 1002;
   -webkit-tap-highlight-color: transparent; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 20.063em) {
     /* line 276, /home/vagrant/web/toni-guy-media/_source/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
     .offcanvas-overlap-right .exit-off-canvas:hover {
       background: rgba(255, 255, 255, 0.05); } }
@@ -8349,7 +8349,7 @@ a.toggle {
       /* line 13, _scss/_global.scss */
       html > body .height-controller {
         margin-bottom: 40px; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 44.063em) {
   /* line 25, _scss/_global.scss */
   html > body .display-small {
     display: none; }
@@ -8419,6 +8419,10 @@ a.toggle {
     max-width: 70%;
     margin: auto;
     padding-top: 10px; } }
+@media only screen and (min-width: 44.063em) {
+  /* line 66, _scss/_type.scss */
+  h1 {
+    max-width: 100%; } }
 @media only screen {
   /* line 2, _scss/_sections.scss */
   section {
@@ -8501,7 +8505,7 @@ a.toggle {
           height: 100%; }
         /* line 88, _scss/_sections.scss */
         section.content > .row > .background {
-          height: 300px;
+          height: 60%;
           padding: 0px; }
           /* line 91, _scss/_sections.scss */
           section.content > .row > .background > .background-image {
@@ -8546,7 +8550,7 @@ a.toggle {
           /* line 131, _scss/_sections.scss */
           section.content > .row > .background.menuactive {
             height: 0px; } }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 20.063em) {
   /* line 145, _scss/_sections.scss */
   section.sidebar > .row > .columns > .logo-holder > .logo-wrapper {
     position: relative; }
@@ -8554,7 +8558,7 @@ a.toggle {
     section.sidebar > .row > .columns > .logo-holder > .logo-wrapper > .display-small > a > img {
       max-width: 300px;
       width: 100% !important; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 44.063em) {
   /* line 164, _scss/_sections.scss */
   section.sidebar {
     width: 100px;
@@ -8591,10 +8595,8 @@ a.toggle {
             position: relative;
             width: 30px;
             max-height: 100%;
-            transition: 0.3s;
-            -webkit-transition: 0.3s;
             margin-top: 0px; }
-  /* line 213, _scss/_sections.scss */
+  /* line 211, _scss/_sections.scss */
   section.content {
     width: calc(100% - 100px);
     height: 100%;
@@ -8602,44 +8604,44 @@ a.toggle {
     overflow-y: scroll;
     left: 100px;
     display: inline; }
-    /* line 220, _scss/_sections.scss */
+    /* line 218, _scss/_sections.scss */
     section.content > .row {
       height: 100%;
       max-width: 100%;
       width: 100%; }
-      /* line 224, _scss/_sections.scss */
+      /* line 222, _scss/_sections.scss */
       section.content > .row > .copy {
         height: 100%;
         padding: 0px; }
-        /* line 227, _scss/_sections.scss */
+        /* line 225, _scss/_sections.scss */
         section.content > .row > .copy > .copy-holder {
           display: table;
           width: 100%; }
-          /* line 230, _scss/_sections.scss */
+          /* line 228, _scss/_sections.scss */
           section.content > .row > .copy > .copy-holder > .copy-wrapper {
             display: table-cell;
             vertical-align: middle;
             position: relative;
             padding: 30px; }
-            /* line 235, _scss/_sections.scss */
+            /* line 233, _scss/_sections.scss */
             section.content > .row > .copy > .copy-holder > .copy-wrapper > .next-page {
               position: absolute;
               bottom: 20px;
               left: 0px;
               width: 100%; }
-      /* line 244, _scss/_sections.scss */
+      /* line 242, _scss/_sections.scss */
       section.content > .row > .background {
         height: 100%; }
-        /* line 246, _scss/_sections.scss */
+        /* line 244, _scss/_sections.scss */
         section.content > .row > .background > .background-image {
           position: fixed; } }
 @media only screen and (min-width: 1500px) {
-  /* line 258, _scss/_sections.scss */
+  /* line 256, _scss/_sections.scss */
   section.content > .row > .copy {
     width: 500px;
     float: left;
     left: 0px; }
-  /* line 263, _scss/_sections.scss */
+  /* line 261, _scss/_sections.scss */
   section.content > .row > .background {
     width: calc(100% - 500px);
     float: right;
@@ -8650,35 +8652,43 @@ a.toggle {
     height: 100%;
     width: 0px;
     background: #151515;
-    transition: 0.2s;
-    -webkit-transition: 0.2s;
     position: absolute;
     top: 58px;
     display: none;
     text-align: center; }
-    /* line 12, _scss/_navigation.scss */
+    /* line 10, _scss/_navigation.scss */
     nav > ul {
       display: table-cell;
       vertical-align: middle;
       list-style: none;
       padding-top: 30px;
       padding-bottom: 80px; }
-      /* line 18, _scss/_navigation.scss */
+      /* line 16, _scss/_navigation.scss */
+      nav > ul > .logo-holder-nav {
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+        display: none; }
+        /* line 22, _scss/_navigation.scss */
+        nav > ul > .logo-holder-nav > a > img {
+          width: auto;
+          height: 30px; }
+      /* line 28, _scss/_navigation.scss */
       nav > ul > li {
         display: none; }
-        /* line 20, _scss/_navigation.scss */
+        /* line 30, _scss/_navigation.scss */
         nav > ul > li > a {
           color: white;
           font-size: 2rem;
           padding: 10px;
           text-transform: capitalize; }
-          /* line 25, _scss/_navigation.scss */
+          /* line 35, _scss/_navigation.scss */
           nav > ul > li > a:hover {
             color: white; }
-          /* line 28, _scss/_navigation.scss */
+          /* line 38, _scss/_navigation.scss */
           nav > ul > li > a:focus {
             color: white; }
-    /* line 34, _scss/_navigation.scss */
+    /* line 44, _scss/_navigation.scss */
     nav.active {
       display: table;
       position: absolute;
@@ -8686,20 +8696,24 @@ a.toggle {
       height: 100%;
       left: 0px;
       top: 0px; } }
-@media only screen and (min-width: 64.063em) {
-  /* line 48, _scss/_navigation.scss */
+@media only screen and (min-width: 44.063em) {
+  /* line 58, _scss/_navigation.scss */
   nav {
     position: relative;
     top: 0px; }
-    /* line 51, _scss/_navigation.scss */
+    /* line 61, _scss/_navigation.scss */
     nav > ul {
       padding-top: 40px;
       padding-bottom: 40px; }
-    /* line 55, _scss/_navigation.scss */
+    /* line 65, _scss/_navigation.scss */
     nav.active {
       display: table;
       position: absolute;
       width: 100%;
       left: 0px; } }
+@media only screen and (min-width: 706px) and (max-width: 800px) {
+  /* line 77, _scss/_navigation.scss */
+  nav > ul > li > a {
+    font-size: 1.7rem; } }
 
 /*# sourceMappingURL=toni-guy-media.css.map */

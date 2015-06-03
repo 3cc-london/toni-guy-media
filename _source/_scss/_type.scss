@@ -61,4 +61,9 @@
 }
 
 @media #{$medium-up} {}
-@media #{$large-up} {}
+
+@media #{$large-up} {
+	h1 {
+		max-width:100%;
+	}
+}

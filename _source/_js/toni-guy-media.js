@@ -21,8 +21,10 @@ function logoSIze() {
 	}
 	if (window_height < 290 && window_width > 640) {
 		$('.logo-wrapper img').css('display', 'none');
+		$('.logo-holder-nav').css('display', 'block');
 	} else {
 		$('.logo-wrapper img').css('display', 'inline-block');
+		$('.logo-holder-nav').css('display', 'none');
 	}
 	if (window_width < 640) {
 		$('.logo-wrapper img').css('width', '100%');
@@ -36,23 +38,31 @@ function logoSIze() {
 */
 
 function openWNav() {
+	var window_height = $(window).height();
+	var window_width = $(window).width();
 	$('a.toggle').addClass('active');
 	$('.copy .copy-wrapper').css('display', 'none');
 	$('.copy').addClass('menuactive');
 	$('.background').addClass('menuactive');
 	$('nav').addClass('active');
 
-	setTimeout(function()
-	{
-		var shown = $('.menu > li:first');
-	    shown.css('display','block').hide().fadeIn('slow').delay(5);
-	    setInterval(function(){
-		    if(shown.next().length){
-			    shown = shown.next();
-			    shown.css('display','block').hide().fadeIn('slow').delay(5);
-		    }
-	    },15);
-	}, 250);
+	if (window_height < 290 && window_width > 640) {
+		$('.logo-holder-nav').css('display', 'block');
+		$('.menu > li').css('display', 'block');
+	} else {
+		setTimeout(function()
+		{
+			var shown = $('.menu > li:first');
+		    shown.css('display','block').hide().fadeIn('slow').delay(5);
+		    setInterval(function(){
+			    if(shown.next().length){
+				    shown = shown.next();
+				    shown.css('display','block').hide().fadeIn('slow').delay(5);
+			    }
+		    },15);
+		}, 250);
+	}
+	
 }
 
 /*
