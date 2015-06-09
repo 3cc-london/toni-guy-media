@@ -21,9 +21,6 @@ module.exports = function(grunt) {
 
 			dev: {
 				src: [
-					// Modernizr
-					'bower_components/modernizr/modernizr.js',
-
 					// Webfontloader
 					'bower_components/webfontloader-min/webfont.js',
 
@@ -37,6 +34,9 @@ module.exports = function(grunt) {
 					'bower_components/foundation/js/foundation.js',
 					'bower_components/foundation/js/foundation/foundation.equalizer.js',
 					'bower_components/foundation/js/foundation/foundation.offcanvas.js',
+					
+					// Modernizr
+					'bower_components/modernizr/modernizr.js',
 					
 					// Custom
 					'<%= path.js %>/<%= pkg.name %>.js', 

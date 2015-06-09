@@ -38,9 +38,11 @@ function logoSIze() {
 */
 
 function openWNav() {
+	if(Modernizr.csstransitions) { 
+		$('a.toggle').addClass('active');
+	} 
 	var window_height = $(window).height();
 	var window_width = $(window).width();
-	$('a.toggle').addClass('active');
 	$('.copy .copy-wrapper').css('display', 'none');
 	$('.copy').addClass('menuactive');
 	$('.background').addClass('menuactive');
@@ -72,7 +74,9 @@ function openWNav() {
 */
 
 function closeNav() {
-	$('a.toggle').removeClass('active');
+	if(Modernizr.csstransitions) { 
+		$('a.toggle').removeClass('active');
+	} 
 	$('.menu > li').css('display', 'none');
 	$('.copy').removeClass('menuactive');
 	$('.background').removeClass('menuactive');
@@ -123,6 +127,7 @@ $(document).ready(function () {
  			opened = false;
  		} 
  	});
+
 });
 
 

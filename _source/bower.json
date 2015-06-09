@@ -17,6 +17,7 @@
     "foundation": "~5.4.6",
     "webfontloader-min": "~1.5.1",
     "holderjs": "~2.4.0",
+    "modernizr": "*",
     "font-awesome": "~4.2.0"
   }
 }

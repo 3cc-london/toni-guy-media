@@ -17,6 +17,9 @@
 						max-width:80px;
 						padding:4px;
 						padding-left:10px;
+						float:right;
+						text-align: right;
+						padding-right: 35px;
 						> .burger-holder {
 							> a {
 								position:absolute;
@@ -26,6 +29,8 @@
 					}
 					&.logo {
 						float:left;
+						padding-top:2px;
+						padding-left:10px;
 					}
 					> .burger-holder {
 						display:inline-block;
@@ -39,9 +44,9 @@
 							> div {
 								> a {
 									> img {
-										max-height:100%;
-										max-width:300px;
-										max-height:26px;
+										width:100%;
+										min-width:200px;
+										max-width:200px;
 									}
 								}
 							}
@@ -68,11 +73,17 @@
 							> ul {
 								text-align:left;
 								margin-bottom:0px;
+								list-style: inside disc;
 								&.height-controller {
 									margin-bottom:40px;
 								}
 								> li {
 									color:$black;
+									text-indent: -15px;
+									padding-bottom: 5px;
+									&:last-child {
+										padding-bottom:0px;
+									}
 								}
 							}
 							> .next-page {	
@@ -93,37 +104,37 @@
 						width:100%;
 						height:100%;
 						&.index {
-							background: url('#{$content}/welcome.jpg') no-repeat; 
+							background: url('#{$content}/welcome_720.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center;
 						}
 						&.tv {
-							background: url('#{$content}/tv.jpg') no-repeat; 
+							background: url('#{$content}/tv_720.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center;
 						}
 						&.magazine {
-							background: url('#{$content}/magazine.jpg') no-repeat; 
+							background: url('#{$content}/magazine_720.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center;
 						}
 						&.sampling {
-							background: url('#{$content}/sampling.jpg') no-repeat; 
+							background: url('#{$content}/sampling_720.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center;
 						}
 						&.rewards {
-							background: url('#{$content}/rewards.jpg') no-repeat; 
+							background: url('#{$content}/rewards_720.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center;
 						}
 						&.wifi {
-							background: url('#{$content}/wifi.jpg') no-repeat; 
+							background: url('#{$content}/wifi_720.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center;
 						}
 						&.contacts {
-							background: url('#{$content}/contacts.jpg') no-repeat; 
+							background: url('#{$content}/contacts_720.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center;
 						}
@@ -136,33 +147,13 @@
 		}
 	}
 }
-@media #{$medium-up} {
-	section {
-		&.sidebar {
-			> .row {
-				> .columns {
-					> .logo-holder {
-						> .logo-wrapper {
-							position:relative;
-							> .display-small {
-								> a {
-									> img {
-										max-width:300px;
-										width:100% !important;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
+
+@media #{$medium-up} {}
+
 @media #{$large-up} {
 	section {
 		&.sidebar {
-			width:100px;
+			width:80px;
 			height:100%;
 			padding-top:25px;
 			position:fixed;
@@ -175,30 +166,29 @@
 					&.burger {
 						height:40px;
 						text-align:center;
+						padding-right:0px;
+						padding-left:0px;
 						> .burger-holder {
 							> a {
-								position:absolute;
-								top:2px;
-								left:27px;
+								position:relative;
 							}
 						}
 					}
 					&.logo {
+						padding:0px;
 						> .logo-holder {
 							height:100%;
 							> .logo-wrapper {
 								position:absolute;
 								bottom:70px;
 								text-align:center;
-								width:calc(100% - 30px);
-								left:20px;
+								padding:0px;
+								width:100%;
 								> div {
 									> a {
 										> img {
-											position:relative;
-											width:30px;
-											max-height:100%;
-											margin-top:0px;
+											min-width:0px;
+											max-height: 300px;
 										}
 									}
 								}
@@ -209,11 +199,11 @@
 			}		
 		}
 		&.content {
-			width:calc(100% - 100px);
+			width:calc(100% - 80px);
 			height:100%;
 			position:fixed;
 			overflow-y: scroll;
-			left:100px;
+			left:80px;
 			display:inline;
 			> .row {
 				height:100%;
@@ -222,6 +212,9 @@
 				> .copy {
 					height: 100%;
 					padding:0px;
+					max-width:500px;
+					float:left;
+					left:0px;
 					> .copy-holder {
 						display:table;
 						width:100%;
@@ -241,27 +234,50 @@
 				}
 				> .background {
 					height: 100%;
-					> .background-image {
-						position:fixed;
-					}
-				}
-			}
-		}
-	}
-}
-@media only screen and (min-width: 1500px) { 
-	section {
-		&.content {
-			> .row {
-				> .copy {
-					width:500px;
-					float:left;
-					left:0px;
-				}
-				> .background {
-					width:calc(100% - 500px);
+					width:100%;
+					max-width:calc(100% - 500px);
+					min-width:50%;
 					float:right;
 					left:0px;
+					> .background-image {
+						position:fixed;
+						top:0;
+						&.index {
+							background: url('#{$content}/welcome_1440.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.tv {
+							background: url('#{$content}/tv_1440.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.magazine {
+							background: url('#{$content}/magazine_1440.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.sampling {
+							background: url('#{$content}/sampling_1440.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.rewards {
+							background: url('#{$content}/rewards_1440.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.wifi {
+							background: url('#{$content}/wifi_1440.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+						&.contacts {
+							background: url('#{$content}/contacts_1440.jpg') no-repeat; 
+							background-size: cover;
+							background-position:center;
+						}
+					}
 				}
 			}
 		}

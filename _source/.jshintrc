@@ -29,6 +29,7 @@
 		"window": false,
 		"alert": true, 
 		"smoothScroll": false,
-		"WebFontConfig": true
+		"WebFontConfig": true,
+		"Modernizr": false
 	}
 }

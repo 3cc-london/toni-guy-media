@@ -21,17 +21,18 @@
 				> a {
 					> img {
 						width:auto;
-						height:30px;
+						height:25px;
 					}
 				}
 			}
 			> li {	
 				display:none;
+				padding:5px;
 				> a {
 					color:white;
 					font-size:2rem;
 					padding:10px;
-					text-transform: capitalize;
+					text-transform: lowercase;
 					&:hover {
 						color:white;
 					}
