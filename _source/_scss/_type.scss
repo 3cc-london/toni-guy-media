@@ -64,7 +64,9 @@
 
 @media #{$medium-up} {}
 
-@media #{$large-up} {
+@media #{$large-up} {}
+
+@media #{$xlarge-up} {
 	h1 {
 		max-width:100%;
 		font-size:3rem;

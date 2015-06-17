@@ -14,6 +14,9 @@ function logoSIze() {
 	if (window_height < 350 && window_width > 640) {
 		$('.logo-wrapper img').css('width', '15px');
 		$('.logo-wrapper img').css('display', 'inline-block');
+		$('.copy-wrapper').addClass('height-padding');
+	} else {
+		$('.copy-wrapper').removeClass('height-padding');
 	}
 	if (window_height > 530 && window_width > 640) {
 		$('.logo-wrapper img').css('width', '30px');
