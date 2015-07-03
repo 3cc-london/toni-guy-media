@@ -8666,33 +8666,36 @@ a.toggle {
           section.content > .row > .background > .background-image.index {
             background: url("../assets/images/content/welcome_1440.jpg") no-repeat;
             background-size: cover;
-            background-position: center right; }
-          /* line 255, _scss/_sections.scss */
+            background-position: center right;
+            background-attachment: fixed; }
+          /* line 256, _scss/_sections.scss */
           section.content > .row > .background > .background-image.tv {
             background: url("../assets/images/content/tv_1440.jpg") no-repeat;
             background-size: cover;
-            background-position: center right; }
-          /* line 260, _scss/_sections.scss */
+            background-position: center right;
+            background-attachment: fixed; }
+          /* line 262, _scss/_sections.scss */
           section.content > .row > .background > .background-image.magazine {
             background: url("../assets/images/content/magazine_1440.jpg") no-repeat;
             background-size: cover;
             background-position: center right; }
-          /* line 265, _scss/_sections.scss */
+          /* line 267, _scss/_sections.scss */
           section.content > .row > .background > .background-image.sampling {
             background: url("../assets/images/content/sampling_1440.jpg") no-repeat;
             background-size: cover;
             background-position: center right; }
-          /* line 270, _scss/_sections.scss */
+          /* line 272, _scss/_sections.scss */
           section.content > .row > .background > .background-image.rewards {
             background: url("../assets/images/content/rewards_1440.jpg") no-repeat;
             background-size: cover;
             background-position: center right; }
-          /* line 275, _scss/_sections.scss */
+          /* line 277, _scss/_sections.scss */
           section.content > .row > .background > .background-image.wifi {
             background: url("../assets/images/content/wifi_1440.jpg") no-repeat;
             background-size: cover;
-            background-position: center right; }
-          /* line 280, _scss/_sections.scss */
+            background-position: center right;
+            background-attachment: fixed; }
+          /* line 283, _scss/_sections.scss */
           section.content > .row > .background > .background-image.contacts {
             background: url("../assets/images/content/contacts_1440.jpg") no-repeat;
             background-size: cover;

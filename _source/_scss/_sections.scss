@@ -251,11 +251,13 @@
 							background: url('#{$content}/welcome_1440.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center right;
+							background-attachment: fixed;
 						}
 						&.tv {
 							background: url('#{$content}/tv_1440.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center right;
+							background-attachment: fixed;
 						}
 						&.magazine {
 							background: url('#{$content}/magazine_1440.jpg') no-repeat; 
@@ -276,6 +278,7 @@
 							background: url('#{$content}/wifi_1440.jpg') no-repeat; 
 							background-size: cover;
 							background-position:center right;
+							background-attachment: fixed;
 						}
 						&.contacts {
 							background: url('#{$content}/contacts_1440.jpg') no-repeat; 
