@@ -8397,37 +8397,47 @@ a.toggle {
     margin-bottom: 5px; }
 
   /* line 33, _scss/_type.scss */
+  h3 {
+    color: black;
+    font-size: 1.1rem;
+    max-width: 85%;
+    margin: auto;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    margin-bottom: 5px; }
+
+  /* line 42, _scss/_type.scss */
   p {
     color: black;
     margin: auto;
     max-width: 85%;
     margin: auto;
     padding-top: 10px; }
-    /* line 39, _scss/_type.scss */
+    /* line 48, _scss/_type.scss */
     p > a {
       color: black;
       text-decoration: underline; }
-      /* line 42, _scss/_type.scss */
+      /* line 51, _scss/_type.scss */
       p > a:hover {
         color: black; }
-      /* line 45, _scss/_type.scss */
+      /* line 54, _scss/_type.scss */
       p > a:focus {
         color: black; }
-    /* line 49, _scss/_type.scss */
+    /* line 58, _scss/_type.scss */
     p.pagelink {
       display: inline-block;
       border-bottom: 2px solid black; }
-      /* line 52, _scss/_type.scss */
+      /* line 61, _scss/_type.scss */
       p.pagelink > a {
         text-decoration: none; }
 
-  /* line 58, _scss/_type.scss */
+  /* line 67, _scss/_type.scss */
   ul {
     max-width: 85%;
     margin: auto;
     padding-top: 10px; } }
 @media only screen and (min-width: 65.063em) {
-  /* line 70, _scss/_type.scss */
+  /* line 79, _scss/_type.scss */
   h1 {
     max-width: 100%;
     font-size: 3rem;
