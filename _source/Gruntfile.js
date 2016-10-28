@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 
 					// Holderjs
 					'bower_components/holderjs/holder.js',
-					
+
 					// Jquery
 					'bower_components/jquery/dist/jquery.js',
 
@@ -34,12 +34,12 @@ module.exports = function(grunt) {
 					'bower_components/foundation/js/foundation.js',
 					'bower_components/foundation/js/foundation/foundation.equalizer.js',
 					'bower_components/foundation/js/foundation/foundation.offcanvas.js',
-					
+
 					// Modernizr
-					'bower_components/modernizr/modernizr.js',
-					
+					'bower_components/foundation/js/vendor/modernizr.js',
+
 					// Custom
-					'<%= path.js %>/<%= pkg.name %>.js', 
+					'<%= path.js %>/<%= pkg.name %>.js',
 				],
 				dest: 'temp/<%= pkg.name %>-build.js',
 			},
@@ -57,7 +57,8 @@ module.exports = function(grunt) {
 
 		jshint: {
 			options: {
-				jshintrc: '.jshintrc'
+				jshintrc: '.jshintrc',
+                reporterOutput: "",
 			},
 			all: [
 				'Gruntfile.js',
